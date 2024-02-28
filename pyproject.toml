@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bd-hw-4"
+version = "0.1.0"
+description = ""
+authors = ["Чумаков Михаил Дмитриевич <mikhail.chumakov@sbermarket.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+notebook = "^7.1.1"
+pymongo = "^4.6.2"
+plotly = "^5.19.0"
+rich = {extras = ["jupyter"], version = "^13.7.0"}
+pandas = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
